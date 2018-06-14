@@ -70,10 +70,10 @@ function clictextoPrincipal(cual){
     var a=1;
 setTimeout(function(){ changeImage();},1);
 function changeImage(){ 
-    if (a>=4){
+    if (a>=53){
         a=1;
     }
-    var stringURL = "../ASSETS/images/Pagina_Principal/" + a + ".jpg";
+    var stringURL = "../ASSETS/images/Pagina_Unreal/numbers/" + a + ".png";
     imagenFondo.style.backgroundImage="url('" + stringURL + "')";
     a+=1;
     setTimeout(function(){changeImage();},5000);
