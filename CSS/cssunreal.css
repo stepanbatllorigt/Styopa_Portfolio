@@ -54,14 +54,14 @@ body{
     position:absolute;
     height:960px;
     width:1920px;
-    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_suave.png");
+    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_dur.png");
     transition:all 1s;
 }
 .degradadoImagenesDur{
     position:absolute;
     height:960px;
     width:1920px;
-    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_dur.png");
+    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_dur_dur.png");
     transition:all 1s;
 }
 #line{
