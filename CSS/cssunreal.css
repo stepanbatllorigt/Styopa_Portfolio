@@ -1,0 +1,408 @@
+body{
+    width:1920px;
+    height:auto;
+    background-image:url("../ASSETS/images/Pagina_Principal/body_base.png");
+}
+#botonRetroceso{
+    z-index:2;
+    position:fixed;
+    top:50px;
+    left:50px;
+    width:50px;
+    height:50px;
+    background-image:url("../ASSETS/images/Pagina_Principal/back_button.png");
+    background-color:black;
+    border-radius:25px;
+}
+#unreal_window{
+    width:1920px;
+    height:5000px;
+    position:absolute;
+    width:inherit;
+    height:inherit;
+}
+#cargador{
+    background-image:url("../ASSETS/images/Pagina_Animacion/loading.gif");
+    width:100px;
+    height:100px;
+    position:fixed;
+    top:410px;
+    left:920px;
+}
+
+.nomeves{
+    transition:all 3s;
+    opacity:0 ;
+}
+.meves{
+    transition:all 3s;
+    opacity:1;
+}
+
+
+
+/*Full Pagina Principal*/
+#baseImagenes{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-color:rgb(15,15,50);
+    transition:all 2s;
+    background-image: url("../ASSETS/images/Pagina_Principal/1.jpg");
+}
+.degradadoImagenesSuave{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_suave.png");
+    transition:all 1s;
+}
+.degradadoImagenesDur{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_dur.png");
+    transition:all 1s;
+}
+#line{
+     z-index:3;
+    background-color:rgb(20,50,160);
+    position:absolute;
+    top:963px;
+    left:10p;
+    width:1900px;
+    height:5px;
+    border-radius:2px;
+}
+
+#texto{
+    background-repeat:no-repeat;
+    position:absolute;
+    left:200px;
+    top:210px;
+    width:640px;
+    height:540px;
+    transition:all 0.8s;
+    border-radius:25px;
+}
+/*TEXTOS CAMBIO POR BOTON*/
+.no_text{
+    background-image:url("../ASSETS/images/Pagina_Unreal/UNREAL.png");    
+}
+.text_WHO{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHO.png");    
+}
+.text_WHAT{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHAT.png");     
+}
+.text_WHERE{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHERE.png");      
+}
+.text_ABOUT{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistABOUT.png");     
+}
+
+
+/*BOTONES FULL*/
+
+.botones{
+    background-repeat:no-repeat;
+    transition:all 0.2s;
+    width:150px;
+    height:75px;
+    top:50px;
+}
+.botones:hover{
+    transform-origin:center;
+    transform:scale(1.18);
+    
+}
+#logo{
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/Logo_Principal_sombra.png");
+    position:absolute;
+    top:0px;
+    left:130px;
+    width:200px;
+    height:200px;
+}
+#logo:hover{
+    background-image:url("../ASSETS/images/Pagina_Principal/Logo_Principal_sombra_hover.png");
+}
+#botonWHO{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHO.png");
+    position:absolute;
+    left:550px;   
+}
+#botonWHAT{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHAT.png");
+    position:absolute;
+    left:810px;  
+}
+#botonWHERE{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHERE.png");
+    position:absolute;
+    left:1100px;
+}
+#botonABOUT{
+    background-image: url("../ASSETS/images/Pagina_Principal/botones_ABOUT.png");
+    position:absolute;
+    left:1400px; 
+}
+
+
+
+
+/*CONTACT ME MENU*/
+.contactDown{
+    border-radius:15px;
+    position:absolute;
+    width:1920px;
+    top:4500px;
+    height:700px;
+    transition:all 1s;
+}
+.contactUp{
+    border-radius:15px;
+    position:absolute;
+    width:1880px;
+    top:3500px;
+    height:300px;
+    transition:all 1s;
+}
+#limite1{
+    width:1920px;
+    height:400px;
+}
+#limite2{
+    width:1920px;
+    height:1100px;
+}
+#contactMeID{
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/base_Contact_me.jpg");   
+}
+#mail{
+    position:absolute;
+    top:10px;
+    left:100px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/mail_icon.png");
+}
+#tel{
+    position:absolute;
+    top:92px;
+    left:99px;
+    width:50px;
+    height:60px;
+    background-size:80%;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/tel_ico.png");
+}
+#place{
+    position:absolute;
+    top:200px;
+    left:100px;
+    width:50px;
+    height:50px;
+    background-size:80%;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/location_icon.png");
+}
+#instagram{
+    position:absolute;
+    top:30px;
+    left:1460px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/instagram_logo.png");
+}
+#face{
+    position:absolute;
+    top:30px;
+    left:1530px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/facebook_logo.png");
+}
+#youtube{
+    position:absolute;
+    top:30px;
+    left:1590px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/you_logo.png");
+}
+#line{
+    z-index:3;
+    background-color:rgb(20,50,160);
+    position:absolute;
+    top:963px;
+    left:10p;
+    width:1900px;
+    height:5px;
+    border-radius:2px;
+}
+
+/*GIFS UNREAL*/
+#base_Unreals{
+    position:absolute;
+    top:1050px;
+    padding:25px;
+    width:800px;
+    height:800px;
+    overflow: auto;
+    background-image:url("../ASSETS/images/Pagina_Ilustracion/fondo_tileable_2.png");
+}
+.GifsUnreal{
+    border-radius:10px;
+    background-size:190%;
+    background-repeat:no-repeat;
+    background-position:-100px;
+    position:relative;
+    display:inline-block;
+    margin:20px;
+    width:210px;
+    height:210px;
+    background-color:red;
+}
+#ProyectoUnreal_01{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/1.gif");}
+#ProyectoUnreal_02{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/2.gif");}
+#ProyectoUnreal_03{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/3.gif");}
+#ProyectoUnreal_04{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/4.gif");}
+#ProyectoUnreal_05{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/5.gif");}
+#ProyectoUnreal_06{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/6.gif");}
+#ProyectoUnreal_07{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/7.gif");}
+#ProyectoUnreal_08{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/8.gif");}
+#ProyectoUnreal_09{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/9.gif");}
+#ProyectoUnreal_10{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/10.gif");}
+#ProyectoUnreal_11{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/11.gif");}
+#ProyectoUnreal_12{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/12.gif");}
+#ProyectoUnreal_13{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/13.gif");}
+#ProyectoUnreal_14{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/14.gif");}
+#ProyectoUnreal_15{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/15.gif");}
+#ProyectoUnreal_16{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/16.gif");}
+#ProyectoUnreal_17{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/17.gif");}
+#ProyectoUnreal_18{background-image:url("../MEDIA/VIDEOS/Unreal/gifs/18.gif");}
+
+#gifViewer{
+    border-radius:15px;
+    position:absolute;
+    top:1050px;
+    width:980px;
+    height:530px;
+    left:880px;
+    background-position:-5px;
+    background-size:101%;
+    background-image:url("../MEDIA/VIDEOS/Unreal/gifs/5.gif");
+}
+#explicacion{
+    overflow-x:scroll;
+    overflow-y:hidden;
+    white-space: nowrap;
+    border-radius:15px;
+    background-color:white;
+    color:red;
+    position:absolute;
+    top:1600px;
+    height:200px;
+    width:980px;
+    left:880px;
+    padding:15px;
+}
+.mapaNodo{
+    transition:background 0.4s;
+    border-radius:4px;
+    display: inline-block;
+    position:relative;
+    width:170px;
+    height:170px;
+    background-position:center;
+    background-size: auto 100%;
+}
+.mapaNodoOff{
+    margin:0px;
+    display: inline-block;
+    position:relative;
+    width:0px;
+    height:170px;
+}
+.mapaNodo:hover{
+    background-position:center;
+    background-size:auto 110%;
+}
+
+#visualizadorNodos{
+    position:absolute;
+    top:2000px;
+    lefT:75px;
+    background-size:auto 100%;
+    background-color: black;
+    border-radius:15px;
+    width:1770px;
+    height:900px;
+}
+
+#mapaNodos_01{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/body_Dissolving_matterial.png");}
+#mapaNodos_02{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/desintegrating_function_Shader.png");}
+#mapaNodos_03{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/desintegrating_Shader.png");}
+#mapaNodos_04{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/Hologram_Shader.png");}
+#mapaNodos_05{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/Ice_matterial.png");}
+#mapaNodos_06{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/lava_1.png");}
+#mapaNodos_07{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/lava_2.png");}
+#mapaNodos_08{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/lava_3.png");}
+#mapaNodos_09{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/Lighting_matt.png");}
+#mapaNodos_10{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/magic_circle_actionNodes.png");
+}
+#mapaNodos_11{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/Magic_floor.png");}
+#mapaNodos_12{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/magic_floor_positioning.png");}
+#mapaNodos_13{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/magic_floor_spawner.png");}
+#mapaNodos_14{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/Ocean_GerstnerWaves_01.png");}
+#mapaNodos_15{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/Ocean_GerstnerWaves_02.png");}
+#mapaNodos_16{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/Ocean_GerstnerWaves_Function_01.png");}
+#mapaNodos_17{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/Ocean_GerstnerWaves_Function_02.png");}
+#mapaNodos_18{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/outlining_everything_01.png");}
+#mapaNodos_19{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/outlining_everything_02.png");}
+#mapaNodos_48{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/body_Dissolving_activation.png");}
+#mapaNodos_49{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/magic_circle_actionNodes.png");}
+#mapaNodos_50{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Particles/fire_particle.png");}
+#mapaNodos_51{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/magic_circle_blue_activation.png");}
+#mapaNodos_52{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/magic_floor_positioning.png");}
+#mapaNodos_53{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/outlining_everything_activation.png");}
+#mapaNodos_54{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/Personal_Shield_Activation.png");}
+#mapaNodos_55{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Matterials_Shaders/Personal_Shield_Nodes.png");}
+
+#mapaNodos_21{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Particles/Fireflies_particleSystem.png");}
+#mapaNodos_22{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Particles/Health_counter_Shield.png");}
+#mapaNodos_23{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Particles/Health_counter_Shield_02.png");}
+#mapaNodos_24{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Particles/magic_circle_particleSystem.png");}
+#mapaNodos_25{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Particles/raining_particle_system.png");}
+#mapaNodos_26{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Particles/Shield_nodeMap_01.png");}
+#mapaNodos_27{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/Particles/Shield_nodeMap_02.png");}
+#mapaNodos_28{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/Newbie_AI/AI_simple_chasing_aim_Shooting.png");}
+#mapaNodos_29{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/Newbie_AI/AI_simple_chasing_aim_Shooting_patrolPoints.png");}
+#mapaNodos_30{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/Newbie_AI/AI_simple_chasing_nodeAction.png");
+}
+#mapaNodos_31{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/AI_node_VisionCheck_01.png");}
+#mapaNodos_32{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/AI_node_VisionCheck_02.png");}
+#mapaNodos_33{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/AI_node_VisionCheck_03.png");}
+#mapaNodos_34{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/AI_node_VisionCheck_04.png");}
+#mapaNodos_35{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/AI_node_VisionCheck_05.png");}
+#mapaNodos_36{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/AI_node_VisionCheck_06.png");}
+#mapaNodos_37{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/Go_To_Random_Destination.png");}
+#mapaNodos_38{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/AI_Change_WalkSpeed.png");}
+#mapaNodos_39{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/AI_travel_to_point.png");}
+#mapaNodos_40{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/AI_Attack_01.png");
+}
+#mapaNodos_41{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/AI_Attack_02.png");}
+#mapaNodos_42{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/AI_Behaviour_Tree.png");}
+#mapaNodos_43{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/AI_Connect_AIController_to_Enemy.png");}
+#mapaNodos_44{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/AI_Connect_AIController_to_Enemy_2.png");}
+#mapaNodos_45{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/Parent_character_class_healthInterfaceDamage.png");}
+#mapaNodos_46{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/AI_Destroy_Memory.png");}
+#mapaNodos_47{background-image:url("../ASSETS/images/Pagina_Unreal/Nodes/AI/PRO_AI/Character_Shoot.png");}

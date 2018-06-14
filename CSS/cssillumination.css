@@ -1,0 +1,411 @@
+body{
+    width:1920px;
+    height:auto;
+    background-image:url("../ASSETS/images/Pagina_Principal/body_base.png");
+}
+#botonRetroceso{
+    z-index:2;
+    position:fixed;
+    top:50px;
+    left:50px;
+    width:50px;
+    height:50px;
+    background-image:url("../ASSETS/images/Pagina_Principal/back_button.png");
+    background-color:black;
+    border-radius:25px;
+}
+#illumination_window{
+    width:inherit;
+    height:inherit;
+}
+#cargador{
+    background-image:url("../ASSETS/images/Pagina_Animacion/loading.gif");
+    width:100px;
+    height:100px;
+    position:fixed;
+    top:410px;
+    left:920px;
+}
+.nomeves{
+    transition:all 3s;
+    opacity:0 ;
+}
+.meves{
+    transition:all 3s;
+    opacity:1;
+}
+
+
+
+/*Full Pagina Principal*/
+#baseImagenes{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    transition:all 2s;
+    background-image: url("../ASSETS/images/Pagina_Principal/1.jpg");
+}
+.degradadoImagenesSuave{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_suave.png");
+    transition:all 1s;
+}
+.degradadoImagenesDur{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_dur.png");
+    transition:all 1s;
+}
+#line{
+     z-index:3;
+    background-color:rgb(20,50,160);
+    position:absolute;
+    top:963px;
+    left:10p;
+    width:1900px;
+    height:5px;
+    border-radius:2px;
+}
+
+#texto{
+    background-repeat:no-repeat;
+    position:absolute;
+    left:200px;
+    top:210px;
+    width:640px;
+    height:540px;
+    transition:all 0.8s;
+    border-radius:25px;
+}
+/*TEXTOS CAMBIO POR BOTON*/
+.no_text{
+    background-image:url("../ASSETS/images/Pagina_Iluminacion/ILLUMINATION.png");    
+}
+.text_WHO{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHO.png");    
+}
+.text_WHAT{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHAT.png");     
+}
+.text_WHERE{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHERE.png");      
+}
+.text_ABOUT{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistABOUT.png");     
+}
+
+
+/*BOTONES FULL*/
+
+.botones{
+    background-repeat:no-repeat;
+    transition:all 0.2s;
+    width:150px;
+    height:75px;
+    top:50px;
+}
+.botones:hover{
+    transform-origin:center;
+    transform:scale(1.18);
+    
+}
+#logo{
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/Logo_Principal_sombra.png");
+    position:absolute;
+    top:0px;
+    left:130px;
+    width:200px;
+    height:200px;
+}
+#logo:hover{
+    background-image:url("../ASSETS/images/Pagina_Principal/Logo_Principal_sombra_hover.png");
+}
+#botonWHO{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHO.png");
+    position:absolute;
+    left:550px;   
+}
+#botonWHAT{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHAT.png");
+    position:absolute;
+    left:810px;  
+}
+#botonWHERE{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHERE.png");
+    position:absolute;
+    left:1100px;
+}
+#botonABOUT{
+    background-image: url("../ASSETS/images/Pagina_Principal/botones_ABOUT.png");
+    position:absolute;
+    left:1400px; 
+}
+
+
+
+/*CONTACT ME MENU*/
+.contactDown{
+    border-radius:15px;
+    position:absolute;
+    width:1920px;
+    top:8600px;
+    height:700px;
+    transition:all 1s;
+}
+.contactUp{
+    border-radius:15px;
+    position:absolute;
+    width:1880px;
+    top:7800px;
+    height:300px;
+    transition:all 1s;
+}
+#limite1{
+    width:1920px;
+    height:400px;
+}
+#limite2{
+    width:1920px;
+    height:6500px;
+}
+#contactMeID{
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/base_Contact_me.jpg");   
+}
+#mail{
+    position:absolute;
+    top:10px;
+    left:100px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/mail_icon.png");
+}
+#tel{
+    position:absolute;
+    top:92px;
+    left:99px;
+    width:50px;
+    height:60px;
+    background-size:80%;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/tel_ico.png");
+}
+#place{
+    position:absolute;
+    top:200px;
+    left:100px;
+    width:50px;
+    height:50px;
+    background-size:80%;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/location_icon.png");
+}
+#instagram{
+    position:absolute;
+    top:30px;
+    left:1460px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/instagram_logo.png");
+}
+#face{
+    position:absolute;
+    top:30px;
+    left:1530px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/facebook_logo.png");
+}
+#youtube{
+    position:absolute;
+    top:30px;
+    left:1590px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/you_logo.png");
+}
+#line{
+    z-index:3;
+    background-color:rgb(20,50,160);
+    position:absolute;
+    top:963px;
+    left:10p;
+    width:1920px;
+    height:5px;
+    border-radius:2px;
+}
+
+
+
+/*ALL ILLUMINATION IMAGES*/
+
+#baseIluminacionFinal{
+    background-image:url("../ASSETS/images/Pagina_Ilustracion/fondo_tileable.png");
+    width:auto;
+    height:auto;
+    position:absolute;
+    top:1050px;
+    left:1100px;
+}
+.renders{
+    border-radius:15px;
+    background-size:auto 100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+    margin:25px;
+    width:700px;
+    height:400px;
+    background-color:red;
+}
+#renderIluminacion_01{background-image:url("../MEDIA/IMAGES/Illumination/imagenes/1.png");}
+#renderIluminacion_02{background-image:url("../MEDIA/IMAGES/Illumination/imagenes/2.png");}
+#renderIluminacion_03{width:700px; height:520px; background-image:url("../MEDIA/IMAGES/Illumination/imagenes/3.png");}
+#renderIluminacion_04{background-position: center -180px; background-size: 100% 150%; width:700px; height:700px; background-image:url("../MEDIA/IMAGES/Illumination/imagenes/4.png");}
+#renderIluminacion_05{background-image:url("../MEDIA/IMAGES/Illumination/imagenes/5.png");}
+#renderIluminacion_06{background-image:url("../MEDIA/IMAGES/Illumination/imagenes/6.png");}
+#renderIluminacion_07{background-image:url("../MEDIA/IMAGES/Illumination/imagenes/7.png");}
+#renderIluminacion_08{width:700px; height:700px; background-image:url("../MEDIA/IMAGES/Illumination/imagenes/8.jpg");}
+#renderIluminacion_09{background-image:url("../MEDIA/IMAGES/Illumination/imagenes/9.png");}
+#renderIluminacion_10{background-image:url("../MEDIA/IMAGES/Illumination/imagenes/10.png");}
+#renderIluminacion_11{background-image:url("../MEDIA/IMAGES/Illumination/imagenes/11.png");}
+#renderIluminacion_12{background-image:url("../MEDIA/IMAGES/Illumination/imagenes/12.png");}
+#renderIluminacion_13{background-position: center -180px; background-size: 100% 150%; width:700px; height:700px; background-image:url("../MEDIA/IMAGES/Illumination/imagenes/13.png");}
+
+/*ALL ILLUMINATION EXPLANATIONS*/
+#explicacion{
+    padding:25px;
+    position:absolute;
+    top:1050px;
+    left:50px;
+    width:900px;
+    height:auto;
+    border-radius:15px;
+    background-image:url("../ASSETS/images/Pagina_Ilustracion/fondo_tileable.png");
+}
+.padrefotosLuces{
+    margin-bottom:25px;
+    overflow-x: scroll;
+    overflow-y:hidden;
+    white-space: nowrap;
+    background-image:url("../ASSETS/images/Pagina_Ilustracion/fondo_tileable_2.png");
+    border-radius:15px;
+    padding:25px;
+    width:auto;
+    height:350px;
+}
+.fotosLuces{
+    background-repeat:no-repeat;
+    margin:10px;
+    background-color:red;
+    display:inline-block;
+    position:relative;
+    border-radius:10px;
+    width:350px;
+    height:350px;
+    background-position:center;
+    background-size:auto 100%;
+}
+#explicacionRender_01 div{
+    width:300px;
+    height:300px;
+}
+#explicacionRender_02 div{
+    width:300px;
+    height:300px;
+}
+#explicacionRender_03{
+    height:470px;
+}
+#explicacionRender_04{
+    height:660px;
+}
+#explicacionRender_04 div{
+    height:600px;
+    width:395px;
+}
+#explicacionRender_05 div{
+    height:300px;
+}
+#explicacionRender_06 div{
+    height:300px;
+}
+#explicacionRender_07 div{
+    height:300px;
+}
+#explicacionRender_08{
+    height:650px;
+}
+#explicacionRender_09 div{
+    height:300px;
+}
+#explicacionRender_13{
+    height:660px;
+}
+#explicacionRender_13 div{
+    height:600px;
+    width:395px;
+}
+#explicacionRender1_1{background-image:url("../MEDIA/IMAGES/Illumination/previos/Barriles_soloSombra.jpg")}
+#explicacionRender1_2{background-image:url("../MEDIA/IMAGES/Illumination/previos/Barriles_soloDifuso.png")}
+
+#explicacionRender2_1{background-image:url("../MEDIA/IMAGES/Illumination/previos/Ambient_Light_Bodego.png")}
+#explicacionRender2_2{background-image:url("../MEDIA/IMAGES/Illumination/previos/Fill_Light_Bodego.png")}
+#explicacionRender2_3{background-image:url("../MEDIA/IMAGES/Illumination/previos/Rim_Light_Bodego.png")}
+#explicacionRender2_4{background-image:url("../MEDIA/IMAGES/Illumination/previos/Key_Light_Bodego.png")}
+
+#explicacionRender3_1{background-image:url("../MEDIA/IMAGES/Illumination/previos/only_book_light.jpg")}
+#explicacionRender3_2{background-image:url("../MEDIA/IMAGES/Illumination/previos/only_clock_light.jpg")}
+#explicacionRender3_3{background-image:url("../MEDIA/IMAGES/Illumination/previos/only_fill_light.jpg")}
+#explicacionRender3_4{background-image:url("../MEDIA/IMAGES/Illumination/previos/only_glass_light.jpg")}
+#explicacionRender3_5{background-image:url("../MEDIA/IMAGES/Illumination/previos/only_lamp_light.jpg")}
+
+#explicacionRender4_1{background-image:url("../MEDIA/IMAGES/Illumination/previos/budha_FillLight.png")}
+#explicacionRender4_2{background-image:url("../MEDIA/IMAGES/Illumination/previos/budha_Key_plus_FillLight.png")}
+#explicacionRender4_3{background-image:url("../MEDIA/IMAGES/Illumination/previos/budha_KeyLight.png")}
+#explicacionRender4_4{background-image:url("../MEDIA/IMAGES/Illumination/previos/budha_RimLight.png")}
+
+#explicacionRender5_1{background-image:url("../MEDIA/IMAGES/Illumination/previos/Day_only_panel.png")}
+#explicacionRender5_2{background-image:url("../MEDIA/IMAGES/Illumination/previos/Day_only_sun.png")}
+
+#explicacionRender6_1{background-image:url("../MEDIA/IMAGES/Illumination/previos/night_only_image.png")}
+#explicacionRender6_2{background-image:url("../MEDIA/IMAGES/Illumination/previos/night_only_lamp.png")}
+#explicacionRender6_3{background-image:url("../MEDIA/IMAGES/Illumination/previos/night_only_sun.png")}
+
+#explicacionRender7_1{background-image:url("../MEDIA/IMAGES/Illumination/previos/volumetric_Light_only_Fill.jpg")}
+#explicacionRender7_2{background-image:url("../MEDIA/IMAGES/Illumination/previos/volumetric_Light_only_sun.png")}
+#explicacionRender7_3{background-image:url("../MEDIA/IMAGES/Illumination/previos/volumetric_Light_withVolume.png")}
+
+#explicacionRender8_1{background-image:url("../MEDIA/IMAGES/Illumination/previos/Light_Bulb_GEO.jpg")}
+#explicacionRender8_2{background-image:url("../MEDIA/IMAGES/Illumination/previos/Light_bulb_noiseSamples.jpeg")}
+#explicacionRender8_3{background-image:url("../MEDIA/IMAGES/Illumination/previos/Light_bulb_post_PhotohopLayers.jpeg")}
+#explicacionRender8_4{background-image:url("../MEDIA/IMAGES/Illumination/previos/Light_bulb_Include_WhiteLights.jpg")}
+#explicacionRender8_5{background-image:url("../MEDIA/IMAGES/Illumination/previos/Light_Bulb_All_Lights.jpg")}
+
+#explicacionRender9_1{background-image:url("../MEDIA/IMAGES/Illumination/previos/black_hole_wireframe.jpg")}
+#explicacionRender9_2{background-image:url("../MEDIA/IMAGES/Illumination/previos/black_hole_nodeMap.jpg")}
+
+#explicacionRender10_1{background-image:url("../MEDIA/IMAGES/Illumination/previos/hdri_01/area1_Light.png")}
+#explicacionRender10_2{background-image:url("../MEDIA/IMAGES/Illumination/previos/hdri_01/Area2_Light.png")}
+#explicacionRender10_3{background-image:url("../MEDIA/IMAGES/Illumination/previos/hdri_01/Sun_Lights.png")}
+
+#explicacionRender11_1{background-image:url("../MEDIA/IMAGES/Illumination/previos/hdri_02/are32.png")}
+#explicacionRender11_2{background-image:url("../MEDIA/IMAGES/Illumination/previos/hdri_02/area2.png")}
+#explicacionRender11_3{background-image:url("../MEDIA/IMAGES/Illumination/previos/hdri_02/onlySun.png")}
+
+#explicacionRender12_1{background-image:url("../MEDIA/IMAGES/Illumination/previos/hdri_03/All_Lights_Sun_W_Background.png")}
+#explicacionRender12_2{background-image:url("../MEDIA/IMAGES/Illumination/previos/hdri_03/Only_only_area2.png")}
+#explicacionRender12_3{background-image:url("../MEDIA/IMAGES/Illumination/previos/hdri_03/Only_Sun.png")}
+
+#explicacionRender13_1{background-image:url("../MEDIA/IMAGES/Illumination/previos/budha_colors_back.png")}
+#explicacionRender13_2{background-image:url("../MEDIA/IMAGES/Illumination/previos/budha_colors_Fill_Light.png")}
+#explicacionRender13_3{background-image:url("../MEDIA/IMAGES/Illumination/previos/budha_colors_Key_Light.png")}
+#explicacionRender13_4{background-image:url("../MEDIA/IMAGES/Illumination/previos/budha_colors_Key_plus_Fill.png")}

@@ -1,0 +1,314 @@
+body{
+    width:1920px;
+    height:auto;
+    background-image:url("../ASSETS/images/Pagina_Principal/body_base.png");
+}
+#botonRetroceso{
+    z-index:2;
+    position:fixed;
+    top:50px;
+    left:50px;
+    width:50px;
+    height:50px;
+    background-image:url("../ASSETS/images/Pagina_Principal/back_button.png");
+    background-color:black;
+    border-radius:25px;
+}
+#rigging_window{
+    width:inherit;
+    height:auto;
+}
+#cargador{
+    background-image:url("../ASSETS/images/Pagina_Animacion/loading.gif");
+    width:100px;
+    height:100px;
+    position:fixed;
+    top:410px;
+    left:920px;
+}
+.nomeves{
+    transition:all 3s;
+    opacity:0 ;
+}
+.meves{
+    transition:all 3s;
+    opacity:1;
+}
+
+/*Full Pagina Principal*/
+#baseImagenes{
+    background-position: center;
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-color:black;
+    transition:all 2s;
+    background-image: url("../ASSETS/images/Pagina_Principal/1.jpg");
+}
+.degradadoImagenesSuave{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_suave.png");
+    transition:all 1s;
+}
+.degradadoImagenesDur{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_dur.png");
+    transition:all 1s;
+}
+#line{
+     z-index:3;
+    background-color:rgb(20,50,160);
+    position:absolute;
+    top:963px;
+    left:10p;
+    width:1900px;
+    height:5px;
+    border-radius:2px;
+}
+
+#texto{
+    background-repeat:no-repeat;
+    position:absolute;
+    left:200px;
+    top:210px;
+    width:640px;
+    height:540px;
+    transition:all 0.8s;
+    border-radius:25px;
+}
+/*TEXTOS CAMBIO POR BOTON*/
+.no_text{
+    background-image:url("../ASSETS/images/Pagina_Rigging/RIGGING.png");    
+}
+.text_WHO{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHO.png");    
+}
+.text_WHAT{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHAT.png");     
+}
+.text_WHERE{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHERE.png");      
+}
+.text_ABOUT{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistABOUT.png");     
+}
+
+
+/*BOTONES FULL*/
+
+.botones{
+    background-repeat:no-repeat;
+    transition:all 0.2s;
+    width:150px;
+    height:75px;
+    top:50px;
+}
+.botones:hover{
+    transform-origin:center;
+    transform:scale(1.18);
+    
+}
+#logo{
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/Logo_Principal_sombra.png");
+    position:absolute;
+    top:0px;
+    left:130px;
+    width:200px;
+    height:200px;
+}
+#logo:hover{
+    background-image:url("../ASSETS/images/Pagina_Principal/Logo_Principal_sombra_hover.png");
+}
+#botonWHO{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHO.png");
+    position:absolute;
+    left:550px;   
+}
+#botonWHAT{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHAT.png");
+    position:absolute;
+    left:810px;  
+}
+#botonWHERE{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHERE.png");
+    position:absolute;
+    left:1100px;
+}
+#botonABOUT{
+    background-image: url("../ASSETS/images/Pagina_Principal/botones_ABOUT.png");
+    position:absolute;
+    left:1400px; 
+}
+
+
+
+
+/*CONTACT ME MENU*/
+.contactDown{
+    border-radius:15px;
+    position:absolute;
+    width:1920px;
+    top:6000px;
+    height:700px;
+    transition:all 1s;
+}
+.contactUp{
+    border-radius:15px;
+    position:absolute;
+    width:1880px;
+    top:4900px;
+    height:300px;
+    transition:all 1s;
+}
+
+#limite1{
+    width:1920px;
+    height:400px;
+}
+#limite2{
+    width:1920px;
+    height:3000px;
+}
+#contactMeID{
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/base_Contact_me.jpg");   
+}
+#mail{
+    position:absolute;
+    top:10px;
+    left:100px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/mail_icon.png");
+}
+#tel{
+    position:absolute;
+    top:92px;
+    left:99px;
+    width:50px;
+    height:60px;
+    background-size:80%;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/tel_ico.png");
+}
+#place{
+    position:absolute;
+    top:200px;
+    left:100px;
+    width:50px;
+    height:50px;
+    background-size:80%;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/location_icon.png");
+}
+#instagram{
+    position:absolute;
+    top:30px;
+    left:1460px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/instagram_logo.png");
+}
+#face{
+    position:absolute;
+    top:30px;
+    left:1530px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/facebook_logo.png");
+}
+#youtube{
+    position:absolute;
+    top:30px;
+    left:1590px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/you_logo.png");
+}
+#line{
+    z-index:3;
+    background-color:rgb(20,50,160);
+    position:absolute;
+    top:963px;
+    left:10p;
+    width:1900px;
+    height:5px;
+    border-radius:2px;
+}
+
+/*Rigging - all pieces-*/
+#TodosRigs{
+    padding-top:70px;
+    position:absolute;
+    top:1050px;
+    left:100px;
+    border-radius:15px;
+    width:1700px;
+    height:inherit;
+    background-image: url("../ASSETS/images/Pagina_Ilustracion/fondo_tileable.png");
+}
+.rigs{
+    border-radius:15px;
+    margin:25px;
+    position:relative;
+    left:80px;
+    width:1500px;
+    height:700px;
+    background-image: url("../ASSETS/images/Pagina_Ilustracion/fondo_tileable_2.png");
+}
+.imagenes{
+    margin:50px 74px;
+    border-radius:15px;
+    display:inline-block;
+    position:relative;
+    width:600px;
+    height:600px;
+}
+/*fotos individuales*/
+#imagenRig_01{
+    background-position:-385px;
+    background-size:auto 100%;
+    background-image:url("../MEDIA/IMAGES/Rigging/1.jpg");
+    
+}
+#explicacionRig_01{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Rigging/car_explanation.png");
+}
+
+#imagenRig_02{
+    background-position:-285px 0px;
+    background-size:auto 120%;
+    background-image:url("../MEDIA/IMAGES/Rigging/2.jpg");
+    
+}
+#explicacionRig_02{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Rigging/CYC_explanation.png");
+}
+.verMas{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:450px;
+    left:700px;;
+    width:100px;
+    height:100px;
+    background-image:url("../ASSETS/images/Pagina_Principal/you_logo.png");
+}
+.verMas:hover{
+    background-image:url("../ASSETS/images/Pagina_Principal/you_logo_hover.png");
+}

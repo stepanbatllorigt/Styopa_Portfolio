@@ -1,0 +1,474 @@
+body{
+    width:1920px;
+    height:auto;
+    background-image:url("../ASSETS/images/Pagina_Principal/body_base.png");
+}
+#botonRetroceso{
+    z-index:2;
+    position:fixed;
+    top:50px;
+    left:50px;
+    width:50px;
+    height:50px;
+    background-image:url("../ASSETS/images/Pagina_Principal/back_button.png");
+    background-color:black;
+    border-radius:25px;
+}
+#modelaje_window{
+    width:inherit;
+    height:inherit;
+}
+#cargador{
+    background-image:url("../ASSETS/images/Pagina_Animacion/loading.gif");
+    width:100px;
+    height:100px;
+    position:fixed;
+    top:410px;
+    left:920px;
+}
+.nomeves{
+    transition:all 3s;
+    opacity:0 ;
+}
+.meves{
+    transition:all 3s;
+    opacity:1;
+}
+
+
+
+/*Full Pagina Principal*/
+#baseImagenes{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-color:rgb(15,15,50);
+    transition:all 2s;
+    background-image: url("../ASSETS/images/Pagina_Principal/1.jpg");
+}
+.degradadoImagenesSuave{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_suave.png");
+    transition:all 1s;
+}
+.degradadoImagenesDur{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_dur.png");
+    transition:all 1s;
+}
+#line{
+     z-index:3;
+    background-color:rgb(20,50,160);
+    position:absolute;
+    top:963px;
+    left:10p;
+    width:1900px;
+    height:5px;
+    border-radius:2px;
+}
+
+#texto{
+    background-repeat:no-repeat;
+    position:absolute;
+    left:200px;
+    top:210px;
+    width:640px;
+    height:540px;
+    transition:all 0.8s;
+    border-radius:25px;
+}
+/*TEXTOS CAMBIO POR BOTON*/
+.no_text{
+    background-image:url("../ASSETS/images/Pagina_Modelado/MODELING.png");    
+}
+.text_WHO{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHO.png");    
+}
+.text_WHAT{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHAT.png");     
+}
+.text_WHERE{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHERE.png");      
+}
+.text_ABOUT{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistABOUT.png");     
+}
+
+
+/*BOTONES FULL*/
+
+.botones{
+    background-repeat:no-repeat;
+    transition:all 0.2s;
+    width:150px;
+    height:75px;
+    top:50px;
+}
+.botones:hover{
+    transform-origin:center;
+    transform:scale(1.18);
+    
+}
+#logo{
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/Logo_Principal_sombra.png");
+    position:absolute;
+    top:0px;
+    left:130px;
+    width:200px;
+    height:200px;
+}
+#logo:hover{
+    background-image:url("../ASSETS/images/Pagina_Principal/Logo_Principal_sombra_hover.png");
+}
+#botonWHO{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHO.png");
+    position:absolute;
+    left:550px;   
+}
+#botonWHAT{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHAT.png");
+    position:absolute;
+    left:810px;  
+}
+#botonWHERE{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHERE.png");
+    position:absolute;
+    left:1100px;
+}
+#botonABOUT{
+    background-image: url("../ASSETS/images/Pagina_Principal/botones_ABOUT.png");
+    position:absolute;
+    left:1400px; 
+}
+
+
+
+/*CONTACT ME MENU*/
+.contactDown{
+    border-radius:15px;
+    position:absolute;
+    width:1920px;
+    top:7000px;
+    height:700px;
+    transition:all 1s;
+}
+.contactUp{
+    border-radius:15px;
+    position:absolute;
+    width:1880px;
+    top:6200px;
+    height:300px;
+    transition:all 1s;
+}
+#limite1{
+    width:1920px;
+    height:400px;
+}
+#limite2{
+    width:1920px;
+    height:5000px;
+}
+#contactMeID{
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/base_Contact_me.jpg");   
+}
+#mail{
+    position:absolute;
+    top:10px;
+    left:100px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/mail_icon.png");
+}
+#tel{
+    position:absolute;
+    top:92px;
+    left:99px;
+    width:50px;
+    height:60px;
+    background-size:80%;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/tel_ico.png");
+}
+#place{
+    position:absolute;
+    top:200px;
+    left:100px;
+    width:50px;
+    height:50px;
+    background-size:80%;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/location_icon.png");
+}
+#instagram{
+    position:absolute;
+    top:30px;
+    left:1460px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/instagram_logo.png");
+}
+#face{
+    position:absolute;
+    top:30px;
+    left:1530px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/facebook_logo.png");
+}
+#youtube{
+    position:absolute;
+    top:30px;
+    left:1590px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/you_logo.png");
+}
+#line{
+    z-index:3;
+    background-color:rgb(20,50,160);
+    position:absolute;
+    top:963px;
+    left:10p;
+    width:1920px;
+    height:5px;
+    border-radius:2px;
+}
+
+
+/*ALL MODELLING IMAGES*/
+#panelModelos{
+    position:absolute;
+    top:1150px;
+    left:28px;
+    border-radius:15px;
+    background-image:url(../ASSETS/images/Pagina_Ilustracion/fondo_tileable_2.png);
+    width:1800px;
+    height:4900px;
+    padding:30px;
+}
+.modelados{
+    background-position: -350px;
+    background-size: 260%;
+    background-repeat: no-repeat;
+    transition:all 0.4s;
+    position: absolute;
+    background-color:red;
+    width:380px;
+    height:500px;
+    border-radius:15px;
+}
+.modelados:hover{
+    transform-origin: center;
+    transform:scale(1.02);
+}
+#modelaje_01{
+    width:400px;
+    height:550px;
+    top:150px;
+    left:150px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/1.jpg");
+}
+#modelaje_02{
+    top:50px;
+    left:600px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/2.jpg");
+}
+#modelaje_03{
+    width:500px;
+    height:700px;
+    top:150px;
+    left:1150px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/3.jpg");
+}
+#modelaje_04{
+    top:950px;
+    left:150px;
+    background-position:-50px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/4.jpg");
+}
+#modelaje_05{
+    width:500px;
+    height:700px;
+    top:810px;
+    left:580px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/5.jpg");
+}
+#modelaje_06{
+    background-position:-480px;
+    width:600px;
+    height:700px;
+    top:940px;
+    left:1100px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/6.jpg");
+}
+#modelaje_07{
+    width:420px;
+    height:600px;
+    top:1650px;
+    left:170px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/7.jpg");
+}
+#modelaje_08{
+    background-position:-280px;
+    width:350px;
+    height:500px;
+    top:1750px;
+    left:650px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/8.jpg");
+}
+#modelaje_09{
+    background-position:-260px;
+    top:1690px;
+    left:1150px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/9.jpg");
+}
+#modelaje_10{
+    background-position:-550px;
+    width:700px;
+    height:800px;
+    top:2350px;
+    left:70px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/10.jpg");
+}
+#modelaje_11{
+    background-position:-390px;
+    width:450px;
+    height:600px;
+    top:2350px;
+    left:1350px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/11.jpg");
+}
+#modelaje_12{
+    background-position: -110px;
+    background-size:120%;
+    width:790px;
+    height:450px;
+    top:3200px;
+    left:230px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/12.jpg");
+}
+#modelaje_13{
+    background-position:-520px;
+    width:650px;
+    height:800px;
+    top:3150px;
+    left:1150px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/13.jpg");
+}
+#modelaje_14{
+    background-position:-190px -15px;
+    background-size:230%;
+    height:400px;
+    top:2600px;
+    left:850px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/15.jpg");
+}
+#modelaje_15{
+    background-position:-190px -15px;
+    background-size:130%;
+    width:900px;
+    height:500px;
+    top:3750px;
+    left:150px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/14.jpg");
+}
+#modelaje_16{
+    background-position:-320px -15px;
+    background-size:230%;
+    width:500px;
+    height:600px;
+    top:4290px;
+    left:210px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/16.jpg");
+}
+#modelaje_17{
+    background-position:-320px -15px;
+    background-size:230%;
+    width:500px;
+    height:600px;
+    top:4290px;
+    left:810px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/17.jpg");
+}
+#modelaje_18{
+    background-position:-320px -15px;
+    background-size:230%;
+    width:500px;
+    height:600px;
+    top:4140px;
+    left:1330px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/imagenes_modelados/18.jpg");
+}
+
+/*VISUALIZADOR GIFS*/
+
+#boton_return{
+    position:absolute;
+    right:15px;
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    background-color:white;
+    background-image:url("../ASSETS/images/Pagina_Ilustracion/close21-76282.png");
+}
+#visualizadorModelado{
+    border-radius:8px;
+    position:fixed;
+    top:75px;
+    left:200px;
+    width:1500px;
+    height:800px;
+    background-image:url("../ASSETS/images/Pagina_Ilustracion/fondo_tileable_2.png");
+    z-index=90;
+    padding:25px;
+}
+#botonLft{
+    transition:all 0.3s;
+    position:absolute;
+    top:340px;
+    width:50px;
+    height:50px;
+    background-image:url("../ASSETS/images/Pagina_Ilustracion/Lft_Arrow.png");
+}
+#botonRgt{
+    transition:all 0.3s;
+    position:absolute;
+    right:0px;
+    top:340px;
+    width:50px;
+    height:50px;
+    background-image:url("../ASSETS/images/Pagina_Ilustracion/Rgt_Arrow.png");
+}
+#botonRgt:hover{
+    transition:all 0.3s;
+    transform-origin: center;
+    transform:scale(1.3);
+}
+#botonLft:hover{
+    transition:all 0.3s;
+    transform-origin: center;
+    transform:scale(1.3);
+}
+#imagenModelado{
+    z-index=91;
+    border-radius:8px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: auto 100%;
+    position:absolute;
+    top:50px;
+    left:125px;
+    width:1300px;
+    height:750px;
+    background-image:url("../MEDIA/VIDEOS/Modeling/gifs/1.gif");
+}

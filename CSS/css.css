@@ -1,0 +1,587 @@
+/*Full Inicio presentación*/
+body{
+    width:1920px;
+    height:auto;
+    background-color:black;
+}
+#div_Finestra{
+    overflow:hidden;
+    position:fixed;
+    top:400px;
+    left:860px;
+    width:200px;
+    height:80px;
+}
+#real_Window{
+    width:inherit;
+    height:inherit;
+    background-image:url("../ASSETS/images/Pagina_Principal/body_base.png");
+}
+
+.quadrat_blanc_Ini{
+    z-index:-4;
+    background-image: url("../ASSETS/images/Pagina_Principal/White_Square_back.jpg");
+    position:absolute;
+    top:80px;
+    left:0px;
+    width:200px;
+    height:80px;
+    transition:all 2s;
+    transition-delay:1s;
+}
+.quadrat_blanc{
+    z-index:-4;
+    background-image: url("../ASSETS/images/Pagina_Principal/White_Square_back.jpg");
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:200px;
+    height:80px;
+    transition:all 2s;
+    transition-delay:1s;
+}
+
+
+.quadrat_verd_Ini{
+    z-index:-3;
+    background-image: url("../ASSETS/images/Pagina_Principal/Green_Square_back.png");
+    position:absolute;
+    top:0px;
+    left:-200px;
+    width:200px;
+    height:80px;
+    transition:all 2s;
+    transition-delay:3s;
+    
+}
+.quadrat_verd{
+    z-index:-3;
+    background-image: url("../ASSETS/images/Pagina_Principal/Green_Square_back.png");
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:200px;
+    height:80px;
+    transition:all 2s;
+    transition-delay:3s;
+}
+
+
+.quadrat_blanc_Ini2{
+    z-index:-2;
+    background-image: url("../ASSETS/images/Pagina_Principal/White_Square_back.jpg");
+    position:absolute;
+    top:80px;
+    left:0px;
+    width:200px;
+    height:80px;
+    transition:all 2s;
+    transition-delay:5s;
+}
+.quadrat_blanc2{
+    z-index:-2;
+    background-image: url("../ASSETS/images/Pagina_Principal/White_Square_back.jpg");
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:200px;
+    height:80px;
+    transition:all 2s;
+    transition-delay:5s;
+}
+.quadrat_verd2{
+    z-index:-1;
+    background-image: url("../ASSETS/images/Pagina_Principal/Blue_Square_back.jpg");
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:200px;
+    height:80px;
+    transition:all 2s;
+    transition-delay:7s;
+}
+
+
+
+.nom_inicial{
+    z-index:1;
+    background-image: url("../ASSETS/images/Pagina_Principal/complete_Name_alpha.png");
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:200px;
+    height:80px;
+    transition:all 2s;
+}
+
+
+
+
+
+/*Full Página principal*/
+
+
+
+
+#baseImagenes{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-color:black;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: auto 100%;
+    transition:all 2s;
+    background-image: url("../ASSETS/images/Pagina_Principal/1.jpg");
+}
+.degradadoImagenesSuave{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_suave.png");
+    transition:all 1s;
+}
+.degradadoImagenesDur{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_dur.png");
+    transition:all 1s;
+}
+#texto{
+    background-repeat:no-repeat;
+    position:absolute;
+    left:200px;
+    top:210px;
+    width:640px;
+    height:540px;
+    transition:all 0.8s;
+    border-radius:25px;
+}
+.no_text{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtist.png");    
+}
+.text_WHO{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHO.png");    
+}
+.text_WHAT{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHAT.png");     
+}
+.text_WHERE{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHERE.png");      
+}
+.text_ABOUT{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistABOUT.png");     
+}
+
+
+
+
+
+/*SCROLLING THINGS*/
+#limite1{
+    width:1920px;
+    height:400px;
+}
+#limite2{
+    width:1920px;
+    height:600px;
+}
+#limite3{
+    width:1920px;
+    height:800px;
+}
+#limite4{
+    width:1920px;
+    height:1000px;
+}
+#limite5{
+    width:1920px;
+    height:0px;
+}
+.meves{
+    opacity:1;
+    transition:2s;
+    transition-delay:7s;
+}
+.nomeves{
+    opacity:0;
+    transition:2s;
+    transition-delay:7s;
+    
+}
+#real_Window{
+    background-color:black;
+    width:1920px;
+    height:10000px;
+}
+.botones{
+    background-repeat:no-repeat;
+    transition:all 0.2s;
+    width:150px;
+    height:75px;
+    top:50px;
+}
+.botones:hover{
+    transform-origin:center;
+    transform:scale(1.18);
+    
+}
+#logo{
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/Logo_Principal_sombra.png");
+    position:absolute;
+    top:0px;
+    left:130px;
+    width:200px;
+    height:200px;
+}
+#logo:hover{
+    background-image:url("../ASSETS/images/Pagina_Principal/Logo_Principal_sombra_hover.png");
+}
+#botonWHO{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHO.png");
+    position:absolute;
+    left:550px;   
+}
+#botonWHAT{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHAT.png");
+    position:absolute;
+    left:810px;  
+}
+#botonWHERE{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHERE.png");
+    position:absolute;
+    left:1100px;
+}
+#botonABOUT{
+    background-image: url("../ASSETS/images/Pagina_Principal/botones_ABOUT.png");
+    position:absolute;
+    left:1400px; 
+}
+
+/*LEFT UPCOMING THINGS*/
+.names{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:inherit;
+    height:inherit;
+}
+.shadows{
+    border-radius:15px;
+    box-shadow: 5px 5px 30px black;
+}
+.fst_lft{
+    background-image:url("../ASSETS/images/Pagina_Principal/Modeling_01_sample_.jpg");
+    background-color:red;
+    position:absolute;
+    left:-400px;
+    top:1700px;
+    width:1000px;
+    height:600px;
+    transition:all 1s;
+}
+
+.fst_lft2{
+    background-image:url("../ASSETS/images/Pagina_Principal/Modeling_01_sample_.jpg");
+    background-position:-200px -300px;
+    background-size:140%;
+    background-color:red;
+    position:absolute;
+    left:50px;
+    top:1100px;
+    width:1000px;
+    height:600px;
+    transition:all 1s;
+}
+.fst_lft2:hover{
+    background-position:-150px -280px;
+}
+#modelingName{
+    background-position:0px -50px;
+    background-image:url("../ASSETS/images/Pagina_Modelado/modeling_big.png");
+}
+
+.fst_lft3{
+    background-color:red;
+    position:absolute;
+    left:-900px;
+    top:1000px;
+    width:1000px;
+    height:600px;
+    transition:all 1s;
+}
+
+.scnd_lft{
+    background-image:url("../MEDIA/IMAGES/Portadas_Videos/cyborg.jpg");
+    background-position:-500px 200px;
+    position:absolute;
+    left:-400px;
+    top:2400px;
+    width:1000px;
+    height:800px;
+    transition:all 1s;
+}
+
+.scnd_lft2{
+    background-position:-500px -700px;
+    background-image:url("../MEDIA/IMAGES/Portadas_Videos/cyborg.jpg");
+    background-color:blue;
+    position:absolute;
+    left:50px;
+    top:1760px;
+    width:950px;
+    height:800px;
+    transition:all 1s;
+}
+.scnd_lft2:hover{
+    background-image:url("../MEDIA/IMAGES/Portadas_Videos/cyborg.jpg");
+    background-position:-470px -680px;
+}
+#animationName{
+    background-position:0px 140px;
+    background-image:url("../ASSETS/images/Pagina_Animacion/animation_big.png");
+}
+.scnd_lft3{
+    background-color:blue;
+    position:absolute;
+    left:-900px;
+    top:1000px;
+    width:1000px;
+    height:800px;
+    transition:all 1s;
+}
+.thrd_lft{
+    background-image:url("../ASSETS/images/Pagina_Unreal/Unreal_animation_Sample.gif");
+    background-color:green;
+    position:absolute;
+    left:-400px;
+    top:3400px;
+    width:1000px;
+    height:800px;
+    transition:all 1s;
+}
+
+.thrd_lft2{
+    background-image:url("../ASSETS/images/Pagina_Unreal/Unreal_animation_Sample.gif");
+    background-color:green;
+    position:absolute;
+    left:50px;
+    top:2620px;
+    width:950px;
+    height:800px;
+    transition:all 1s;
+}
+#unrealName{
+    background-position:0px 140px;
+    background-image:url("../ASSETS/images/Pagina_Unreal/unreal_big.png");
+}
+
+/*RIGHT UPCOMING THINGS*/
+
+
+.fst_rgt{
+    background-image:url("../ASSETS/images/Pagina_Principal/Rigging_Image_Sample.jpg");
+    background-color:red;
+    position:absolute;
+    left:1300px;
+    top:2000px;
+    width:900px;
+    height:600px;
+    transition:all 1s;
+}
+
+.fst_rgt2{
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/Rigging_Image_Sample.jpg");
+    background-color:red;
+    background-size: 200%;
+    background-position:-300px -650px;
+    position:absolute;
+    left:950px;
+    top:1200px;
+    width:900px;
+    height:600px;
+    transition:all 1s;
+}
+.fst_rgt2:hover{
+    background-position:-340px -620px;
+}
+#riggingName{
+    background-position:0px -50px;
+    background-image:url("../ASSETS/images/Pagina_Rigging/rigging_big.png");    
+}
+.fst_rgt3{
+    background-image:url("../ASSETS/images/Pagina_Principal/Rigging_Image_Sample.jpg");
+    background-color:red;
+    position:absolute;
+    left:2000px;
+    top:1100px;
+    width:900px;
+    height:600px;
+    transition:all 1s;
+}
+
+.scnd_rgt{
+    background-image:url("../ASSETS/images/Pagina_Ilustracion/ilustracionFinalColor.jpg");
+    position:absolute;
+    left:1300px;
+    top:2500px;
+    width:1000px;
+    height:800px;
+    transition:all 1s;
+}
+
+.scnd_rgt2{
+    background-position:-150px -150px;
+    background-size:170%;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Ilustracion/ilustracionFinalColor.jpg");
+    position:absolute;
+    left:920px;
+    top:1870px;
+    width:800px;
+    height:800px;
+    transition:all 1s;
+}
+.scnd_rgt2:hover{
+    background-position:-200px -100px;
+}
+#illustrationName{
+    background-position: 0px 100px;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Ilustracion/illustartion.png");
+}
+.scnd_rgt3{
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Ilustracion/ilustracionFinalColor.jpg");
+    background-color:blue;
+    position:absolute;
+    left:2000px;
+    top:1100px;
+    width:1000px;
+    height:800px;
+    transition:all 1s;
+}
+.thrd_rgt{
+    background-color:green;
+    background-position:-15px -30px;
+    background-size:115% auto;
+    background-image:url("../MEDIA/IMAGES/Illumination/imagenes/8.jpg");
+    position:absolute;
+    left:1300px;
+    top:3500px;
+    width:1000px;
+    height:800px;
+    transition:all 1s;
+}
+
+.thrd_rgt2{
+    background-color:green;
+    background-position:-100px -300px;
+    background-size:125%;
+    background-image:url("../MEDIA/IMAGES/Illumination/imagenes/8.jpg");
+    position:absolute;
+    left:920px;
+    top:2770px;
+    width:930px;
+    height:800px;
+    transition:all 1s;
+}
+.thrd_rgt2:hover{
+    background-position:-80px -280px;
+}
+#illuminationName{
+    background-position: 0px 100px;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Iluminacion/ILLUMINATION_big.png");
+}
+
+/*CONTACT ME MENU*/
+.contactDown{
+    border-radius:15px;
+    position:absolute;
+    width:1920px;
+    top:4500px;
+    height:700px;
+    transition:all 1s;
+}
+.contactUp{
+    border-radius:15px;
+    position:absolute;
+    width:1880px;
+    top:3700px;
+    height:300px;
+    transition:all 1s;
+}
+#contactMeID{
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/base_Contact_me.jpg");   
+}
+#mail{
+    position:absolute;
+    top:10px;
+    left:100px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/mail_icon.png");
+}
+#tel{
+    position:absolute;
+    top:92px;
+    left:99px;
+    width:50px;
+    height:60px;
+    background-size:80%;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/tel_ico.png");
+}
+#place{
+    position:absolute;
+    top:200px;
+    left:100px;
+    width:50px;
+    height:50px;
+    background-size:80%;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/location_icon.png");
+}
+#instagram{
+    position:absolute;
+    top:30px;
+    left:1460px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/instagram_logo.png");
+}
+#face{
+    position:absolute;
+    top:30px;
+    left:1530px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/facebook_logo.png");
+}
+#youtube{
+    position:absolute;
+    top:30px;
+    left:1590px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/you_logo.png");
+}
+#line{
+    z-index:3;
+    background-color:rgb(20,50,160);
+    position:absolute;
+    top:963px;
+    left:10p;
+    width:1900px;
+    height:5px;
+    border-radius:2px;
+}

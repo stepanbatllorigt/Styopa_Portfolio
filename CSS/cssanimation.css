@@ -1,0 +1,548 @@
+body{
+    width:1920px;
+    height:auto;
+    background-image:url("../ASSETS/images/Pagina_Principal/body_base.png");
+}
+#botonRetroceso{
+    z-index:2;
+    position:fixed;
+    top:50px;
+    left:50px;
+    width:50px;
+    height:50px;
+    background-image:url("../ASSETS/images/Pagina_Principal/back_button.png");
+    background-color:black;
+    border-radius:25px;
+}
+#animation_Window{
+    width:1920px;
+    height:5000px;
+    position:absolute;
+    width:inherit;
+    height:inherit;
+}
+#cargador{
+    background-image:url("../ASSETS/images/Pagina_Animacion/loading.gif");
+    width:100px;
+    height:100px;
+    position:fixed;
+    top:410px;
+    left:920px;
+}
+.nomeves{
+    transition:all 3s;
+    opacity:0 ;
+}
+.meves{
+    transition:all 3s;
+    opacity:1;
+}
+
+
+/*Full Pagina Principal*/
+#baseImagenes{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-color:rgb(15,15,50);
+    transition:all 2s;
+    background-image: url("../ASSETS/images/Pagina_Principal/1.jpg");
+}
+.degradadoImagenesSuave{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_suave.png");
+    transition:all 1s;
+}
+.degradadoImagenesDur{
+    position:absolute;
+    height:960px;
+    width:1920px;
+    background-image: url("../ASSETS/images/Pagina_Principal/degradado_menu_principal_dur.png");
+    transition:all 1s;
+}
+#line{
+     z-index:3;
+    background-color:rgb(20,50,160);
+    position:absolute;
+    top:963px;
+    left:10p;
+    width:1900px;
+    height:5px;
+    border-radius:2px;
+}
+
+#texto{
+    background-repeat:no-repeat;
+    position:absolute;
+    left:200px;
+    top:210px;
+    width:640px;
+    height:540px;
+    transition:all 0.8s;
+    border-radius:25px;
+}
+/*TEXTOS CAMBIO POR BOTON*/
+.no_text{
+    background-image:url("../ASSETS/images/Pagina_Animacion/ANIMATION.png");    
+}
+.text_WHO{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHO.png");    
+}
+.text_WHAT{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHAT.png");     
+}
+.text_WHERE{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistWHERE.png");      
+}
+.text_ABOUT{
+    background-image:url("../ASSETS/images/Pagina_Principal/3DArtistABOUT.png");     
+}
+
+
+/*BOTONES FULL*/
+
+.botones{
+    background-repeat:no-repeat;
+    transition:all 0.2s;
+    width:150px;
+    height:75px;
+    top:50px;
+}
+.botones:hover{
+    transform-origin:center;
+    transform:scale(1.18);
+    
+}
+#logo{
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/Logo_Principal_sombra.png");
+    position:absolute;
+    top:0px;
+    left:130px;
+    width:200px;
+    height:200px;
+}
+#logo:hover{
+    background-image:url("../ASSETS/images/Pagina_Principal/Logo_Principal_sombra_hover.png");
+}
+#botonWHO{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHO.png");
+    position:absolute;
+    left:550px;   
+}
+#botonWHAT{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHAT.png");
+    position:absolute;
+    left:810px;  
+}
+#botonWHERE{
+    background-image: url("../ASSETS/images/Pagina_Principal/boton_WHERE.png");
+    position:absolute;
+    left:1100px;
+}
+#botonABOUT{
+    background-image: url("../ASSETS/images/Pagina_Principal/botones_ABOUT.png");
+    position:absolute;
+    left:1400px; 
+}
+
+
+/*VIDEOS*/
+#miscellaneous{
+    position:absolute;
+    left:170px;
+    top:1100px;
+    height:auto;
+    width:auto;
+}
+#vid_1{
+    position:absolute;
+    width:250px;
+    height:250px;
+    border-radius:15px;
+    transition:all 0.4s;
+    background-image: url("../MEDIA/IMAGES/Portadas_Videos/demoreel_hover.jpg");
+}
+#vid_1:hover{
+    transition:all 0.7s;
+    background-image: url("../MEDIA/IMAGES/Portadas_Videos/demoreel2.jpg");
+}
+#vid_2{
+    position:absolute;
+    left:255px;
+    width:250px;
+    height:250px;
+    border-radius:15px;
+    transition:all 0.4s;
+    background-image: url("../MEDIA/IMAGES/Portadas_Videos/cyborg_hover.jpg");
+}
+#vid_2:hover{
+    transition:all 0.7s;
+    background-image: url("../MEDIA/IMAGES/Portadas_Videos/cyborg2.jpg");
+}
+#vid_3{
+    position:absolute;
+    left:510px;
+    width:250px;
+    height:250px;
+    border-radius:15px;
+    transition:all 0.4s;
+    background-image: url("../MEDIA/IMAGES/Portadas_Videos/cyborg_hover.jpg");
+}
+#vid_3:hover{
+    transition:all 0.7s;
+    background-image: url("../MEDIA/IMAGES/Portadas_Videos/cyborg2.jpg");
+}
+#vid_4{
+    position:absolute;
+    left:765px;
+    width:250px;
+    height:250px;
+    border-radius:15px;
+    transition:all 0.4s;
+    background-image: url("../MEDIA/IMAGES/Portadas_Videos/gladiator_hover.jpg");
+}
+#vid_4:hover{
+    transition:all 0.7s;
+    background-image: url("../MEDIA/IMAGES/Portadas_Videos/gladiator2.jpg");
+}
+#vid_5{
+    position:absolute;
+    left:1020px;
+    width:250px;
+    height:250px;
+    border-radius:15px;
+    transition:all 0.4s;
+    background-image: url("../MEDIA/IMAGES/Portadas_Videos/gooon_hover.jpg");
+}
+#vid_5:hover{
+    transition:all 0.7s;
+    background-image: url("../MEDIA/IMAGES/Portadas_Videos/gooon2.jpg");
+}
+#vid_6{
+    position:absolute;
+    left:1275px;
+    width:250px;
+    height:250px;
+    border-radius:15px;
+    transition:all 0.4s;
+    background-image: url("../MEDIA/IMAGES/Portadas_Videos/demoreel_hover.jpg");
+}
+#vid_6:hover{
+    transition:all 1s;
+    background-image: url("../MEDIA/IMAGES/Portadas_Videos/demoreel2.jpg");
+}
+
+
+/*REPRODUCTOR VIDEO*/
+
+#videoplayer{
+    position:absolute;
+    top:1400px;
+    left:325px;
+    z-index:5;
+    left=400px;
+    
+}
+#baseBotones{
+    position:absolute;
+    top:2100px;
+    left:370px;
+    width:1100px;
+    height:150px;
+    background-image: url("../ASSETS/images/Pagina_Animacion/clean-modern-video-player-ui-element-psd/player_Base.png");
+    
+}
+#boton_play{
+    position:absolute;
+    background-repeat: no-repeat;
+    background-position:center;
+    top:93px;
+    left:38px;
+    width:30px;
+    height:30px;
+    background-image: url("../ASSETS/images/Pagina_Animacion/clean-modern-video-player-ui-element-psd/play.png");
+}
+#boton_rewind{
+    position:absolute;
+    background-repeat: no-repeat;
+    background-position:center;
+    top:93px;
+    left:74px;
+    width:30px;
+    height:30px;
+    background-image: url("../ASSETS/images/Pagina_Animacion/clean-modern-video-player-ui-element-psd/stop.png");
+}
+#SliderVolumen{
+    position:absolute;
+    top:103px;
+    left:940px;
+    width:140px;
+}
+#barraVideo{
+    position:absolute;
+    top:101px;
+    left:135px;
+    width:719px;
+}
+#Reloj{
+    position:absolute;
+    left:440px;
+    top:10px;
+    width:150px;
+    height:50px;
+    visibility: hidden;
+    text-align: center;
+    font-size:15px;
+    background-color:white;
+}
+#barraVideo:hover~#Reloj{
+    visibility: visible;
+}
+
+
+/*INPUTS STYLING - TYPE=RANGE THE SLIDERS!!*/
+input[type=range] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+  background: transparent; /* Otherwise white in Chrome */
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  /* Hides the slider so custom styles can be added */
+  background: transparent; 
+  border-color: transparent;
+  color: transparent;
+}
+
+/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #3071a9;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #367ebd;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #3071a9;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #2a6495;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #3071a9;
+}
+input[type=range]::-ms-fill-upper {
+  background: #3071a9;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #367ebd;
+}
+
+
+
+
+/*CONTACT ME MENU*/
+.contactDown{
+    border-radius:15px;
+    position:absolute;
+    width:1920px;
+    top:3500px;
+    height:700px;
+    transition:all 1s;
+}
+.contactUp{
+    border-radius:15px;
+    position:absolute;
+    width:1880px;
+    top:2500px;
+    height:300px;
+    transition:all 1s;
+}
+
+#limite1{
+    width:1920px;
+    height:400px;
+}
+#limite2{
+    width:1920px;
+    height:1000px;
+}
+#contactMeID{
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/base_Contact_me.jpg");   
+}
+#mail{
+    position:absolute;
+    top:10px;
+    left:100px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/mail_icon.png");
+}
+#tel{
+    position:absolute;
+    top:92px;
+    left:99px;
+    width:50px;
+    height:60px;
+    background-size:80%;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/tel_ico.png");
+}
+#place{
+    position:absolute;
+    top:200px;
+    left:100px;
+    width:50px;
+    height:50px;
+    background-size:80%;
+    background-repeat:no-repeat;
+    background-image:url("../ASSETS/images/Pagina_Principal/location_icon.png");
+}
+#instagram{
+    position:absolute;
+    top:30px;
+    left:1460px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/instagram_logo.png");
+}
+#face{
+    position:absolute;
+    top:30px;
+    left:1530px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/facebook_logo.png");
+}
+#youtube{
+    position:absolute;
+    top:30px;
+    left:1590px;
+    width:50px;
+    height:50px;
+    background-size:100%;
+    background-image:url("../ASSETS/images/Pagina_Principal/you_logo.png");
+}
+#line{
+    z-index:3;
+    background-color:rgb(20,50,160);
+    position:absolute;
+    top:963px;
+    left:10p;
+    width:1900px;
+    height:5px;
+    border-radius:2px;
+}
