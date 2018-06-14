@@ -201,7 +201,7 @@ if (playPromise !== undefined) {
     function clickVideo(cual){
         if(cual==1){
             video_actual="../MEDIA/VIDEOS/animation/2d/MyDemoReelStepanBatlloriMartinez.mp4";
-            poster_actual="../MEDIA/IMAGES/Portadas_Videos/demoreel_2D.jpg";
+            poster_actual="../MEDIA/IMAGES/Portadas_Videos/demoreel_2d.jpg";
             reiniciar_Valores();
             totalS.innerHTML=Math.floor(mi_video.duration);
         }
