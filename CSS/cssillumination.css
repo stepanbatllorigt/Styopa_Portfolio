@@ -40,6 +40,8 @@ body{
 /*Full Pagina Principal*/
 #baseImagenes{
     position:absolute;
+    background-repeat:no-repeat;
+    background-position:center;
     height:960px;
     width:1920px;
     transition:all 2s;
