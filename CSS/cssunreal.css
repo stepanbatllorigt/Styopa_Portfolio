@@ -48,7 +48,7 @@ body{
     width:1920px;
     background-color:rgb(15,15,50);
     transition:all 2s;
-    background-image: url("../ASSETS/images/Pagina_Unreal/nodes/numbers/1.jpg");
+    background-image: url("../ASSETS/images/Pagina_Unreal/Nodes/numbers/1.jpg");
 }
 .degradadoImagenesSuave{
     position:absolute;
