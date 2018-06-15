@@ -73,7 +73,7 @@ function changeImage(){
     if (a>=53){
         a=1;
     }
-    var stringURL = "../ASSETS/images/Pagina_Unreal/numbers/" + a + ".png";
+    var stringURL = "../ASSETS/images/Pagina_Unreal/nodes/numbers/" + a + ".png";
     imagenFondo.style.backgroundImage="url('" + stringURL + "')";
     a+=1;
     setTimeout(function(){changeImage();},5000);
